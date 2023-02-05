@@ -1,0 +1,27 @@
+{
+  "name": "obs-cli",
+  "version": "0.1.0",
+  "description": "Command Line for OBS",
+  "main": "bin/index.mjs",
+  "type": "module",
+  "dependencies": {
+    "obs-websocket-js": "^5.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicklamyeeman/obs-cli.git"
+  },
+  "author": "Nick LAM YEE MAN",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nicklamyeeman/obs-cli/issues"
+  },
+  "homepage": "https://github.com/nicklamyeeman/obs-cli#readme",
+  "bin": {
+    "obs-cli": "./bin/index.mjs"
+  }
+}
